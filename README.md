@@ -47,23 +47,3 @@ Yes you can hide that by add option hide_text#'yes' in shortocde.
 # Can i use this in templates? #
 
 Yes you can use in templates. e.g. <?php do_shortcode("[pi_redirect url#'http://example.com' sec#'5' hide_text#'yes']"); ?>
-
-## Screenshots ##
-
-1. This is how we can add shortcode in page or post.
-2. This is how we can add shortcode in page templates.
-3. This is how it looks on front
-
-## Changelog ##
-
-# 1.0 #
-* Initial Release.
-
-## Upgrade Notice ##
-
-# 1.0 #
-Upgrade and added hide text option.
-
-# 0.5 #
-This version fixes a security related bug.  Upgrade immediately.
-
