@@ -46,4 +46,4 @@ Yes you can hide that by add option hide_text#'yes' in shortocde.
 
 # Can i use this in templates? #
 
-Yes you can use in templates. e.g. <?php do_shortcode("[pi_redirect url#'http://example.com' sec#'5' hide_text#'yes']"); ?>
+Yes you can use in templates. e.g. ```php <?php do_shortcode("[pi_redirect url#'http://example.com' sec#'5' hide_text#'yes']"); ?> ```
