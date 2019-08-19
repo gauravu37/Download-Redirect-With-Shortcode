@@ -8,7 +8,7 @@ Its very usefull in Thank you / Order success pages, where website owner mostly 
 
 # Shortcode #
 
-[pi_redirect url#'http://example.com' sec#'5' hide_text#'yes']
+[pi_redirect url='http://example.com' sec='5' hide_text='yes']
 
 1. url : Here you can add url where you want to redirect.
 2. sec : After how many seconds you want to redirect. Add the time in seconds.
@@ -17,7 +17,7 @@ This option in optional, if you don't want to hide text just don't use it.
 
 # Donate #
 
-<a href#"https://paypal.me/ProntoInfosystemLLP">if you like our work please donate us </a>
+<a href="https://paypal.me/ProntoInfosystemLLP">if you like our work please donate us </a>
 
 # Our Heighlights #
 * You can hide text if you don't want to show
@@ -36,7 +36,7 @@ e.g.
 
 1. Upload plugin folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `[pi_redirect url#'http://example.com' sec#'5']` in page/posts OR `< ? php do_shortcode("[pi_redirect url#'http://example.com' sec#'5']"); ? >` in your templates
+1. Place `[pi_redirect url='http://example.com' sec='5']` in page/posts OR `< ? php do_shortcode("[pi_redirect url='http://example.com' sec#'5']"); ? >` in your templates
 
 ## Frequently Asked Questions ##
 
@@ -46,4 +46,4 @@ Yes you can hide that by add option hide_text#'yes' in shortocde.
 
 # Can i use this in templates? #
 
-Yes you can use in templates. e.g. ```php <?php do_shortcode("[pi_redirect url#'http://example.com' sec#'5' hide_text#'yes']"); ?> ```
+Yes you can use in templates. e.g. ```php <?php do_shortcode("[pi_redirect url='http://example.com' sec#'5' hide_text#'yes']"); ?> ```
